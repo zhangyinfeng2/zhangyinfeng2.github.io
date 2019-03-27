@@ -1,0 +1,87 @@
+html,body, h1,h2,h3,h4,h5,h6,ul,li,ol,p,span{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding-top: 51px;
+}
+.backgroundColor(@color){
+    background-color: @color;
+}
+.flex(@direction, @wrap, @justify, @align){
+    display: flex;
+    flex-flow: @direction @wrap;
+    justify-content: @justify;
+    align-items: @align;
+}
+a {
+    text-decoration: none;
+}
+// 头部导航栏
+.navbar-inverse{
+    .container{
+        form{
+            position: relative;
+            input{
+                .backgroundColor(#333);
+                border: none;
+                color: #fff;
+            };
+            button{
+                background: none;
+                border: none;
+                color: #999;
+                position: absolute;
+                top: 8px;
+                right: 20px;
+            }
+        }
+    }
+}
+// 内容
+//左侧侧边栏
+.sidebar{
+    width: 220px;
+    height: 870px;
+    .backgroundColor(#222);
+    .switch{
+        display: block;
+        width: 220px;
+        height: 56px;
+        padding-left: 20px;
+        box-sizing: border-box;
+        line-height: 56px;
+        color: #bdbdc0;
+        text-decoration: none;
+        .glyphicon-heart{
+            padding-right: 10px;
+            vertical-align: middle;
+        };
+        .glyphicon-triangle-bottom, .glyphicon-triangle-top{
+            margin-left: 80px;
+            vertical-align: middle;
+        }
+    }
+    ul{
+        width: 56px;
+        display: none;
+        li{
+            width: 220px;
+            height: 40px;
+            line-height: 40px;
+            color: #bdbdc0;
+            padding-left: 60px;
+            box-sizing: border-box;
+            a{
+                color: #bdbdc0;
+                text-decoration: none;
+            }
+            a:hover{
+                color: #fff;
+            }
+        }
+        li:hover{
+            .backgroundColor(#009688);
+        }
+    }
+}
