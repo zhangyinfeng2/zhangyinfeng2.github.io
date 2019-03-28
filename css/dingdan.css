@@ -1,0 +1,144 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+ol,
+p,
+span {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding-top: 51px;
+  /* background: #efefef; */
+}
+a {
+  text-decoration: none;
+}
+.navbar-inverse .container form {
+  position: relative;
+}
+.navbar-inverse .container form input {
+  background-color: #333;
+  border: none;
+  color: #fff;
+}
+.navbar-inverse .container form button {
+  background: none;
+  border: none;
+  color: #999;
+  position: absolute;
+  top: 8px;
+  right: 20px;
+}
+.sidebar {
+  width: 240px;
+  height: 100%;
+  background-color: #222;
+	position: absolute;
+	left: 0;
+	overflow: scroll;
+}
+.sidebar .switch {
+  display: block;
+  width: 220px;
+  height: 56px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  line-height: 56px;
+  color: #bdbdc0;
+  text-decoration: none;
+}
+.sidebar .switch .glyphicon-heart {
+  padding-right: 10px;
+  vertical-align: middle;
+}
+.sidebar .switch .glyphicon-triangle-bottom,
+.sidebar .switch .glyphicon-triangle-top {
+  margin-left: 80px;
+  vertical-align: middle;
+}
+.sidebar ul {
+  width: 56px;
+  display: none;
+}
+.sidebar ul li {
+  width: 220px;
+  height: 40px;
+  line-height: 40px;
+  color: #bdbdc0;
+  padding-left: 60px;
+  box-sizing: border-box;
+}
+.sidebar ul li a {
+  color: #bdbdc0;
+  text-decoration: none;
+}
+.sidebar ul li a:hover {
+  color: #fff;
+}
+.sidebar ul li:hover {
+  background-color: #009688;
+}
+header{
+	min-width:1200px;
+}
+#sidebar-wrap{
+	width: 220px;
+	height: 100%;
+	position: fixed;
+	top: 50px;
+	left: 0;
+	overflow: hidden;
+}
+
+
+
+
+
+.maximum_wrap{
+	padding-left: 220px !important ;
+	margin: 5px 0 0 5px ;
+}
+.main-wrap{
+	box-sizing: border-box;
+}
+.breadcrumb{
+	box-shadow: 0 12px 20px rgba(0,0,0,0.1);
+}
+
+.product img{
+	width: 100%;;
+}
+
+.product span{
+	display: inline-block;
+	border:1px solid #ccc;
+	border-radius: 5px;
+	padding:0 2px;
+	margin-right: 5px;
+	margin-top:5px;
+}
+.table tbody tr td{
+	vertical-align: middle;
+	color: #333;	
+	font-size: 14px;
+}
+
+.span1 span:first-child{
+	color: rgb(295,195,1);
+	border-color:rgb(295,195,1);
+}
+.span1 span:last-child{
+	color: #f00;
+	border-color: #f00;
+}
+.span2{
+	color:#ccc;
+}
