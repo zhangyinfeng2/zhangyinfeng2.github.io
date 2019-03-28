@@ -37,9 +37,12 @@ a {
   right: 20px;
 }
 .sidebar {
-  width: 220px;
-  height: 870px;
+  width: 240px;
+  height: 100%;
   background-color: #222;
+	position: absolute;
+	left: 0;
+	overflow: scroll;
 }
 .sidebar .switch {
   display: block;
@@ -81,4 +84,23 @@ a {
 }
 .sidebar ul li:hover {
   background-color: #009688;
+}
+header{
+	min-width:1200px;
+}
+#sidebar-wrap{
+	width: 220px;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	overflow: hidden;
+}
+.main-wrap{
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	padding-left: 220px !important ;
+}
+.breadcrumb{
+	box-shadow: 0 12px 20px rgba(0,0,0,0.1);
 }
