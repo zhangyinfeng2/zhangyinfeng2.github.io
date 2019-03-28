@@ -1,0 +1,84 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+ol,
+p,
+span {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding-top: 51px;
+}
+a {
+  text-decoration: none;
+}
+.navbar-inverse .container form {
+  position: relative;
+}
+.navbar-inverse .container form input {
+  background-color: #333;
+  border: none;
+  color: #fff;
+}
+.navbar-inverse .container form button {
+  background: none;
+  border: none;
+  color: #999;
+  position: absolute;
+  top: 8px;
+  right: 20px;
+}
+.sidebar {
+  width: 220px;
+  height: 870px;
+  background-color: #222;
+}
+.sidebar .switch {
+  display: block;
+  width: 220px;
+  height: 56px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  line-height: 56px;
+  color: #bdbdc0;
+  text-decoration: none;
+}
+.sidebar .switch .glyphicon-heart {
+  padding-right: 10px;
+  vertical-align: middle;
+}
+.sidebar .switch .glyphicon-triangle-bottom,
+.sidebar .switch .glyphicon-triangle-top {
+  margin-left: 80px;
+  vertical-align: middle;
+}
+.sidebar ul {
+  width: 56px;
+  display: none;
+}
+.sidebar ul li {
+  width: 220px;
+  height: 40px;
+  line-height: 40px;
+  color: #bdbdc0;
+  padding-left: 60px;
+  box-sizing: border-box;
+}
+.sidebar ul li a {
+  color: #bdbdc0;
+  text-decoration: none;
+}
+.sidebar ul li a:hover {
+  color: #fff;
+}
+.sidebar ul li:hover {
+  background-color: #009688;
+}
