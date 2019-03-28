@@ -9,4 +9,15 @@ $(function(){
         $(this).children('.b').toggleClass('.glyphicon glyphicon-triangle-top');
         $(this).children('.b').toggleClass('.glyphicon glyphicon-triangle-bottom');
     })
+<<<<<<< HEAD
 })
+=======
+
+
+// 	 var aaa = $('.aaa').outerHeight()+20;
+// 	 var bbb= $('.bbb')
+// 	$('.aaa').height( $('.aaa').outerHeight()-20);
+// 	console.log($('.aaa').height($('.aaa').outerHeight()-17))
+})
+
+>>>>>>> master

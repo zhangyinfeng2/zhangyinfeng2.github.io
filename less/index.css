@@ -16,7 +16,10 @@ span {
 }
 body {
   padding-top: 51px;
+<<<<<<< HEAD
   height: 100%;
+=======
+>>>>>>> master
 }
 a {
   text-decoration: none;
@@ -38,11 +41,20 @@ a {
   right: 20px;
 }
 .sidebar {
+<<<<<<< HEAD
   width: 220px;
   height: 100%;
   background-color: #222;
   position: fixed;
   left: 0;
+=======
+  width: 240px;
+  height: 100%;
+  background-color: #222;
+	position: absolute;
+	left: 0;
+	overflow: scroll;
+>>>>>>> master
 }
 .sidebar .switch {
   display: block;
@@ -85,3 +97,25 @@ a {
 .sidebar ul li:hover {
   background-color: #009688;
 }
+<<<<<<< HEAD
+=======
+header{
+	min-width:1200px;
+}
+#sidebar-wrap{
+	width: 220px;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	overflow: hidden;
+}
+.main-wrap{
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	padding-left: 220px !important ;
+}
+.breadcrumb{
+	box-shadow: 0 12px 20px rgba(0,0,0,0.1);
+}
+>>>>>>> master
