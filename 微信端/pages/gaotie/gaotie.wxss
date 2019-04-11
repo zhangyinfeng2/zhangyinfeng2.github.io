@@ -1,0 +1,92 @@
+/* pages/gaotie/gaotie.wxss */
+.header{
+  height: 450rpx;
+  /* color:azure; */
+  background-image: linear-gradient(171deg,transparent 25%, transparent 75%, #ffffff 25%, #ffffff),url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1554109033373&di=f4816ba85c3f9b2574bd72bec64738cc&imgtype=0&src=http%3A%2F%2Fs2.sinaimg.cn%2Fmw690%2F007bHzl0zy7mctItMvTb1%26690);
+  background-size: 100% 85%;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  /* border: 1px solid #000; */
+}
+.button{
+  width:85%;
+  margin:15rpx auto;
+  background-color:#ffffff;
+  border-radius: 50rpx;
+  text-align: center;
+  padding:15rpx 0;
+  overflow: hidden;
+
+}
+.button icon{
+  margin-right: 15rpx;
+}
+.button text{
+  color: #666666;
+  font-size: 37rpx;
+}
+
+
+.header-nav{
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+  bottom: 10rpx;
+  display: flex;
+  justify-content: space-around;
+
+}
+.nav{
+  background: #ffffff;
+  box-shadow:0 0 20rpx 2rpx #dddddd;    
+  width:28%;
+  height: 210rpx;
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+.nav text{
+  display: block;
+}
+.nav text:first-child{
+  font-weight: bold;
+  font-size: 33rpx;
+  padding:6rpx 0 0 6rpx;
+}
+.nav text:nth-child(2){
+  font-size: 28rpx;
+  padding-left:6rpx;
+
+}
+.tupian{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.tupian:after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    box-shadow:50rpx -20rpx 50rpx 60rpx #ffffff inset;
+}
+.tupian image{
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+  position: absolute;
+  right:-30rpx;
+}
+
+.picker{
+    padding:13rpx 0 30rpx 0;
+    /* background-color: rgba(54, 129, 179, 0.253); */
+}
+.screening{
+    display: flex;
+    justify-content: space-around;
+    box-shadow:0 5rpx 50rpx 1rpx #dddddd;    
+    font-size: 35rpx;
+}

@@ -1,0 +1,51 @@
+
+/*轮播图*/
+page{
+  background: #fff;
+}
+.slide-image {
+ width: 100%;
+}
+.main-box{
+  width: 95%;
+  margin: 40rpx auto;
+}
+.main-nav{
+  display: flex;
+  border-bottom: 2rpx solid rgb(242, 243, 245);
+  justify-content: space-between;
+  font-size: 32rpx;
+  color: #ccc;
+}
+.section{
+  font-size: 32rpx;
+  color: #333;
+}
+.input-view{
+  text-align: center;
+  width: 76%;
+  height: 45rpx;
+  border-bottom: 2rpx solid salmon;
+
+}
+.picker{
+  display: flex;
+  margin-top: 20rpx;
+  margin-bottom: 10rpx;
+}
+.text-view{
+  width: 100%;
+  height: 70rpx;
+  line-height: 70rpx;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+  background: salmon;
+  border-radius: 10rpx;
+  text-align: center;
+  color: #fff;
+}
+.n-view{
+  display: flex;
+  justify-content: space-between;
+  font-size: 32rpx;
+}

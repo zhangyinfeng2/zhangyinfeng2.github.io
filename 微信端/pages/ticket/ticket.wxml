@@ -1,0 +1,40 @@
+<!--pages/ticket/ticket.wxml-->
+<view class='nav'>
+  <text>上海</text>
+  <form>
+
+    <input type='text' placeholder='景点名称/目的地'></input>
+        <label>
+    搜索
+    </label>
+  </form>
+</view>
+
+
+
+
+
+<view class='content'>
+  <view class='main' wx:for="{{ticket}}" wx:key="*this"   data-newsid='{{item.newsid}}' bindtap='goMin' >
+    <view class='main-img'>
+      <image src='{{item.dict_tu}}'></image>
+    </view>
+    <view class='main-right'>
+      <view class='main-name'>{{item.dict_jiudian}}</view>
+      <view class='site-wrap'>
+        <text class='main-site'>上海</text>
+        <text class='main-level'>4A景区</text>
+      </view>
+      <view class='main-grade'>
+        <text>4.7分</text>
+        <text style='color:#FF9E4E'>￥9<text style="color:#717171">起</text></text>
+      </view>
+      <view class='main-ts'>
+        <text>随买随用</text>
+        <text>亲子同乐</text>
+        <text>城市公园</text>
+      </view>
+
+    </view>
+  </view>
+</view>

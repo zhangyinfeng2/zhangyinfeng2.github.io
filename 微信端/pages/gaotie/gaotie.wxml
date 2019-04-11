@@ -1,0 +1,40 @@
+<view class='header'>
+  <view class='button'>
+    <icon type="search" size="13"></icon>
+    <text>输入目的地、景点关键字</text>
+  </view>
+  <view class='header-nav'>
+   <view class='nav' wx:for="{{item1}}" wx:key="index">
+      <text>{{item.title1}}</text>
+      <text>{{item.title2}}</text>
+      <view class='tupian'>
+        <image src='{{item.url}}'></image>
+      </view>
+    </view>
+  </view>
+</view>
+
+
+<view class='screening'>
+    <view class="section">
+        <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+            <view class="picker">
+                {{array[index]}}<icon class="iconfont icon-xiajiantou"></icon>
+            </view>
+        </picker>
+    </view>
+    <view class="section">
+        <picker bindchange="bindPickerChange1" value="{{index1}}" range="{{array1}}">
+            <view class="picker">
+                {{array1[index1]}}<icon class="iconfont icon-xiajiantou"></icon>
+            </view>
+        </picker>
+    </view>
+    <view class="section">
+        <picker bindchange="bindPickerChange2" value="{{index2}}" range="{{array2}}">
+            <view class="picker">
+                {{array2[index2]}}<icon class="iconfont icon-xiajiantou"></icon>
+            </view>
+        </picker>
+    </view>
+</view>

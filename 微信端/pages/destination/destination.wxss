@@ -1,0 +1,179 @@
+.top {
+  height: 300rpx;
+  background: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553923378339&di=374044618fb0c9c77de7fd09d7ccffab&imgtype=0&src=http%3A%2F%2Fimg6.ph.126.net%2FjndlC1cbEH4_uy0qLnH2_w%3D%3D%2F6597342445541377716.jpg") no-repeat center;
+  overflow: hidden;
+}
+
+.top .navBtn {
+  width: 170rpx;
+  height: 140rpx;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 100rpx;
+}
+
+.navBtn-t {
+  width: 100%;
+  height: 100rpx;
+}
+
+.navBtn-t>text {
+  font-size: 50rpx;
+  color: #fff;
+}
+
+.navBtn-t view text {
+  font-size: 30rpx;
+  color: #fff;
+}
+
+.navBtn-t image {
+  width: 40rpx;
+  height: 40rpx;
+  margin-top: 30rpx;
+  margin-left: 20rpx;
+}
+
+/* 轮播 */
+
+swiper {
+  width: 100%;
+  height: 210rpx;
+  margin-top: 20rpx;
+}
+
+swiper-item {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+
+.swiper-item-group {
+  width: 18%;
+  height: 160rpx;
+  text-align: center;
+  margin-right: 20rpx;
+}
+
+.swiper-item-group-image image {
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.swiper-item-group-text text {
+  font-size: 28rpx;
+}
+
+/* 滑动榜单 */
+
+.scroll-view {
+  width: 100%;
+  height: 400rpx;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+
+.scroll-view-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.scroll-view-top text {
+  font-size: 35rpx;
+}
+
+.scroll-view-top text:last-child {
+  font-size: 30rpx;
+}
+
+.scroll-view .module-scroll-view {
+  width: 100%;
+  white-space: nowrap;
+  margin-top: 20rpx;
+}
+
+.scroll-view .module-scroll-view .item-group {
+  width: 45%;
+  display: inline-block;
+  margin-right: 20rpx;
+}
+
+.icon-group {
+  position: relative;
+}
+
+.icon-group .list {
+  width: 60rpx;
+  height: 60rpx;
+  background-color: #fa394e;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top-left-radius: 10rpx;
+  border-bottom-right-radius: 30rpx;
+}
+
+.icon-group .list view {
+  font-size: 25rpx;
+  color: #fff;
+  text-align: center;
+}
+
+.icon-group image {
+  width: 300rpx;
+  height: 200rpx;
+  border-radius: 10rpx;
+}
+
+.text-group text {
+  font-size: 35rpx;
+  color: #686868;
+}
+
+.item-rate text {
+  font-size: 24rpx;
+  color: #308ab7;
+}
+
+/* 特色主题 */
+
+.feature {
+  width: 100%;
+  padding: 20rpx;
+  box-sizing: border-box;
+  white-space: nowrap;
+  margin-top: 20rpx;
+}
+
+.feature-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature-top text {
+  font-size: 35rpx;
+}
+
+.feature-top text:last-child {
+  font-size: 30rpx;
+}
+
+.feature-image {
+  position: relative;
+  display: inline-block;
+  margin-right: 20rpx;
+  margin-top: 20rpx;
+}
+
+.feature-image image {
+  width: 300rpx;
+  height: 200rpx;
+  border-radius: 10rpx;
+}
+
+.feature-image-text {
+  position: absolute;
+  top: 90rpx;
+  left: 80rpx;
+  color: #fff;
+}

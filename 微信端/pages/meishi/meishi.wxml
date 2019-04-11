@@ -1,0 +1,118 @@
+
+<view class="top">
+  <view class="top-head">
+    <image src='../img/logo.png'></image>
+    <text>杭州</text>
+  </view>
+  <view class="selection">
+    <view>美食城精选榜</view>
+    <view>查看榜单 ＞</view>
+  </view>
+  <scroll-view scroll-x="true" class="top-list">
+    <view>
+      <image src='http://106.15.226.152/01.jpg'></image>
+      <text>杭州东坡肉招牌美味</text>
+      <text>★美食城一星</text>
+    </view>
+  </scroll-view>
+</view>
+
+<!-- 杭州特色菜 -->
+<view class="feature">
+    <view class="feature-ts">
+    <view>杭州特色菜</view>
+    <view>查看榜单 ＞</view>
+  </view>
+  <scroll-view scroll-x="true" class="feature-list">
+    <view>
+      <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553870019004&di=6a73ab138e7af168ca0e8ea1cb87330e&imgtype=0&src=http%3A%2F%2Fpic0.huitu.com%2Fres%2F20181015%2F1151424_20181015234922726143_1.jpg'></image>
+      <text>西湖醋鱼</text>
+      <text>43家推荐</text>
+    </view>
+    
+  </scroll-view>
+</view>
+
+
+<!-- 在线盯做 -->
+<view class="feature">
+    <view class="feature-ts">
+    <view>在线订单</view>
+    <view>查看榜单 ＞</view>
+  </view>
+  <scroll-view scroll-x="true" class="feature-list">
+    <view>
+      <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553872393766&di=0f95812128ea3669bdb9c5ec606f207e&imgtype=0&src=http%3A%2F%2Fpic89.huitu.com%2Fres%2F20161106%2F870219_20161106095142977018_1.jpg'></image>
+      <text>童年小筑餐厅（中大银泰城2层）</text>
+      <text><text>4.1分</text>217条点评</text>
+    </view>
+
+  </scroll-view>
+</view>
+
+
+<!-- 附近热门 -->
+<view class="feature">
+    <view class="feature-ts">
+    <view>附近热门</view>
+    <view>查看榜单 ＞</view>
+  </view>
+  <scroll-view scroll-x="true" class="feature-list">
+    <view>
+      <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553872593685&di=e9fe28da894b95b6292c104c561807d5&imgtype=0&src=http%3A%2F%2Fqcloud.dpfile.com%2Fpc%2FitpYX0wT4qjgHisPtZnuE7SYeokWbFIfFZJZLBwzfqJVVU6wF2bYNPt44c6vLqYkTYGVDmosZWTLal1WbWRW3A.jpg'></image>
+      <text>新白鹿餐厅（中大银泰城点）</text>
+      <text><text>4.7分</text>222条点评</text>
+    </view>
+  </scroll-view>
+</view>
+
+<!-- 景观餐厅 -->
+<view class="feature">
+    <view class="feature-ts">
+    <view>景观餐厅</view>
+    <view>查看榜单 ＞</view>
+  </view>
+  <scroll-view scroll-x="true" class="feature-list">
+    <view>
+      <image src='http://qcloud.dpfile.com/pc/ssGi4sDxxbItZ67nbnuEAOt_m4mT7OnFyztEC3Z73qPS-Yt0lTgZkOio0cDfLtkTjoJrvItByyS4HHaWdXyO_DrXIaWutJls2xCVbatkhjUNNiIYVnHvzugZCuBITtvjski7YaLlHpkrQUr5euoQrg.jpg'></image>
+      <text>弄堂里(小河路店)</text>
+      <text><text>4.3分</text>190条点评</text>
+    </view>
+  </scroll-view>
+</view>
+
+
+<!-- 老字号 -->
+<view class="feature">
+    <view class="feature-ts">
+    <view>老字号</view>
+    <view>查看榜单 ＞</view>
+  </view>
+  <scroll-view scroll-x="true" class="feature-list">
+    <view>
+      <image src='http://img0.imgtn.bdimg.com/it/u=2650776124,2158424694&fm=15&gp=0.jpg'></image>
+      <text>楼外楼(三里亭店)</text>
+      <text><text>4.5分</text>44条点评</text>
+    </view>
+  </scroll-view>
+</view>
+
+
+<!-- 老建筑餐厅 -->
+<view class="feature">
+    <view class="feature-ts">
+    <view>老建筑餐厅</view>
+    <view>查看榜单 ＞</view>
+  </view>
+  <scroll-view scroll-x="true" class="feature-list">
+    <view>
+      <image src='http://qcloud.dpfile.com/pc/vUYqzOm_pPu8IqNMnQc6O9cyqmBtJs6x2M7i2GLOA161oo9IaTilO-QeTxH8qvI8joJrvItByyS4HHaWdXyO_DrXIaWutJls2xCVbatkhjUNNiIYVnHvzugZCuBITtvjski7YaLlHpkrQUr5euoQrg.jpg'></image>
+      <text>院子餐厅(桥西直街店)</text>
+      <text><text>4.3分</text>44条点评</text>
+    </view>
+  </scroll-view>
+</view>
+
+<view class='footer'>
+ Mamba美食城 已经到底了
+</view>

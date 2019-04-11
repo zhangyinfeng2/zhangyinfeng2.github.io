@@ -1,0 +1,122 @@
+<!-- 头部 -->
+<view class='top'>
+  <navigator class='navBtn'>
+    <view class='navBtn-t'>
+      <text>杭州</text>
+      <image src='../images/xia.png'></image>
+      <view>
+        <text>HANGZHOU</text>
+      </view>
+    </view>
+  </navigator>
+</view>
+<!-- 轮播图 -->
+<swiper indicator-dots="true" indicator-color="#ddd" indicator-active-color="#000">
+  <swiper-item>
+    <view class='swiper-item-group'>
+      <view class='swiper-item-group-image'>
+        <image src='../images/icon_air tickets_96p.png'></image>
+      </view>
+      <view class='swiper-item-group-text'>
+        <text>景点</text>
+      </view>
+    </view>
+    <view class='swiper-item-group'>
+      <view class='swiper-item-group-image'>
+        <image src='../images/hill.png'></image>
+      </view>
+      <view class='swiper-item-group-text'>
+        <text>酒店</text>
+      </view>
+    </view>
+    <view class='swiper-item-group'>
+      <view class='swiper-item-group-image'>
+        <image src='../images/cate.png'></image>
+      </view>
+      <view class='swiper-item-group-text'>
+        <text>美食林</text>
+      </view>
+    </view>
+    <view class='swiper-item-group'>
+      <view class='swiper-item-group-image'>
+        <image src='../images/flower.png'></image>
+      </view>
+      <view class='swiper-item-group-text'>
+        <text>自由行</text>
+      </view>
+    </view>
+    <view class='swiper-item-group'>
+      <view class='swiper-item-group-image'>
+        <image src='../images/strategy.png'></image>
+      </view>
+      <view class='swiper-item-group-text'>
+        <text>跟团游</text>
+      </view>
+    </view>
+  </swiper-item>
+  <swiper-item>
+    <view class='swiper-item-group'>
+      <view class='swiper-item-group-image'>
+        <image src='../images/icon_air tickets_96p.png'></image>
+      </view>
+      <view class='swiper-item-group-text'>
+        <text>汽车票</text>
+      </view>
+    </view>
+     <view class='swiper-item-group'>
+      <view class='swiper-item-group-image'>
+        <image src='../images/icon_air tickets_96p.png'></image>
+      </view>
+      <view class='swiper-item-group-text'>
+        <text>游记</text>
+      </view>
+    </view>
+  </swiper-item>
+</swiper>
+
+
+<!-- 滑动选项卡 -->
+<view class='scroll-view'>
+  <view class='scroll-view-top'>
+    <text>必玩TOP榜</text>
+    <text>更多 ></text>
+  </view>
+  <scroll-view class='module-scroll-view' scroll-x>
+    <view class='item-group' wx:for="{{[1,2,3,4,5,6]}}">
+      <view class='icon-group'>
+        <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553935586106&di=c589e62520316a4f554ba0d2ebe9c868&imgtype=0&src=http%3A%2F%2Fimg1.gtimg.com%2Fln%2Fpics%2Fhv1%2F230%2F36%2F1986%2F129149060.jpg'></image>
+        <view class='list'>
+          <view>TOP</view>
+          <view>1</view>
+        </view>
+      </view>
+      <view class='text-group'>
+        <text>西湖</text>
+      </view>
+      <view class='item-rate'>
+        <text>4.7分</text>
+      </view>
+    </view>
+  </scroll-view>
+</view>
+<!-- 特色主题 -->
+<view class='feature'>
+  <view class='feature-top'>
+    <text>特色主题</text>
+    <text>更多 ></text>
+  </view>
+  <scroll-view  scroll-x>
+    <view class='feature-image'>
+      <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553935586106&di=c589e62520316a4f554ba0d2ebe9c868&imgtype=0&src=http%3A%2F%2Fimg1.gtimg.com%2Fln%2Fpics%2Fhv1%2F230%2F36%2F1986%2F129149060.jpg'></image>
+      <view class='feature-image-text'>周边风光</view>
+    </view>
+    <view class='feature-image'>
+      <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553935586106&di=c589e62520316a4f554ba0d2ebe9c868&imgtype=0&src=http%3A%2F%2Fimg1.gtimg.com%2Fln%2Fpics%2Fhv1%2F230%2F36%2F1986%2F129149060.jpg'></image>
+      <view class='feature-image-text'>周边风光</view>
+    </view>
+    <view class='feature-image'>
+      <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553935586106&di=c589e62520316a4f554ba0d2ebe9c868&imgtype=0&src=http%3A%2F%2Fimg1.gtimg.com%2Fln%2Fpics%2Fhv1%2F230%2F36%2F1986%2F129149060.jpg'></image>
+      <view class='feature-image-text'>周边风光</view>
+    </view>
+  </scroll-view>
+</view>

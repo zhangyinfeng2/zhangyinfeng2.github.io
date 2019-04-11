@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/shtq/shtq",
+    "pages/gaotie/gaotie",
+    "pages/logs/logs",
+    "pages/destination/destination",
+    "pages/journey/journey",
+    "pages/me/me",
+    "pages/shoot/shoot",
+    "pages/ms/ms",
+    "pages/index/index",
+    "pages/meishi/meishi",
+    "pages/package/package",
+    "pages/ticket/ticket",
+    "pages/ticket-minute/ticket-minute"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F40",
+    "navigationBarTitleText": "全域旅游",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#39b1ed",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "pages/images/xiecheng(1).png",
+        "iconPath": "pages/images/xiecheng.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "pages/images/earth(1).png",
+        "iconPath": "pages/images/earth.png",
+        "pagePath": "pages/destination/destination",
+        "text": "目的地"
+      },
+      {
+        "selectedIconPath": "pages/images/camera(1).png",
+        "iconPath": "pages/images/camera.png",
+        "pagePath": "pages/shoot/shoot",
+        "text": "旅拍"
+      },
+      {
+        "selectedIconPath": "pages/images/calendar(1).png",
+        "iconPath": "pages/images/calendar.png",
+        "pagePath": "pages/journey/journey",
+        "text": "行程"
+      },
+      {
+        "selectedIconPath": "pages/images/me(1).png",
+        "iconPath": "pages/images/me.png",
+        "pagePath": "pages/me/me",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

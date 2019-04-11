@@ -1,0 +1,93 @@
+page{
+    background: #52beff;
+}
+.box{
+  width: 100%;
+  height: 100%;
+}
+.box_title{
+  width: 100%;
+  height: 100rpx;
+  background: #52beff;
+  text-align: center;
+  line-height: 100rpx;
+  color: #fff;
+  position: sticky;
+}
+.box_img{
+  width:100%;
+  height: 300rpx; 
+}
+.box_img image{
+  width: 100%;
+  height: 300rpx; 
+}
+.box_nav{
+  display: flex;
+  height: 100rpx;
+  background: #52beff;
+}
+.nav_title{
+  width: 160rpx;
+   height: 70rpx;
+  font-size: 32rpx;
+  color: pink;
+  background: #fff;
+  border-radius: 65rpx;
+  text-align: center;
+  line-height: 70rpx;
+  margin-left: 16rpx;
+  margin-top: 20rpx;
+}
+.box_content{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+}
+.content{
+  width: 48%;
+  height: 420rpx;
+  border-radius: 10rpx;
+  margin-left: 10rpx;
+  margin-top: 10rpx;
+  margin-bottom: 20rpx;
+  box-shadow: 3rpx 3rpx 3rpx #ccc;                      
+  background: #fff;
+  
+}
+.content_img,.img_content{
+  border-radius: 10rpx;
+  width: 100%;
+  height: 190rpx;
+  background: salmon;
+
+}
+.content_desc{
+  font-size: 30rpx;
+  height: 100rpx;
+  line-height: 50rpx;
+  padding: 0 10rpx 0 10rpx;
+  overflow: hidden;
+  /* text-overflow: ellipsis;
+  white-space: nowrap; */
+}
+.content_price{
+  padding-left: 10rpx;
+ color: salmon;
+}
+.content_book{
+  width: 95%;
+  height: 60rpx;
+  font-size: 32rpx;
+  text-align: center;
+  margin: 10rpx auto;
+  line-height: 60rpx;
+  background: salmon;
+  color: #fff;
+}
+
+/* .button-hover {
+  background-color: salmon;
+  color: #fff;
+} */

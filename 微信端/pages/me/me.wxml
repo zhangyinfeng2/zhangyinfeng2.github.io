@@ -1,0 +1,32 @@
+<view class='a'>
+  <view class='top'>
+    <view class='title'>
+      <text>登录携程，开启旅程</text>
+    </view>
+    <view class='nav'>
+      <navigator>登录/注册</navigator>
+    </view>
+  </view>
+  <view class='order'>
+    <view class='order-content'>
+      <view class='order-content-l' wx:for="{{array}}">
+        <view><image src="{{item.image}}"></image></view>
+        <view><text>全部订单</text></view>
+      </view>
+    </view>
+  </view>
+  <view class='item-group'>
+    <view class='item-group-t'>
+      <text>优惠券</text>
+      <text>></text>
+    </view>
+    <view class='item-group-t'>
+      <text>我的特权</text>
+      <text>></text>
+    </view>
+    <view class='item-group-b'>
+      <text>一生旅行</text>
+      <text>查看我的足迹></text>
+    </view>
+  </view>
+</view>

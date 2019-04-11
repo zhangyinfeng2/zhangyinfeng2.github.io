@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<view class='box'>
+  <view class='box_title'>花花世界 花见真情</view>
+  <view class='box_img'><image src='../img/flow.png'></image></view>
+  <view class='box_nav'>
+    <button class="nav_title {{currentTab==0 ? 'on' : ''}}" data-current="0" catchtap="menuTap">精选</button>
+    <button class="nav_title {{currentTab==0 ? 'on' : ''}}" data-current="1" catchtap="menuTap">樱花</button>
+    <button class="nav_title {{currentTab==0 ? 'on' : ''}}" data-current="0" catchtap="menuTap">油菜花</button>
+    <button  class="nav_title {{currentTab==0 ? 'on' : ''}}" data-current="0" catchtap="menuTap">梅花</button>
+  </view>
+  <view class='box_content'  hidden="{{!isShow}}">
+    <view class='content' wx:for="{{Arr}}" wx:key="*this">
+      <view class='content_img'><image src='{{item.dict_tu}}' class='img_content'></image></view>
+      <view class="content_desc">{{item.dict_biaoti}}</view>
+      <view class='content_price'>{{item.dict_jiage}}元起</view>
+      <view class='content_book'>预定</view>
+    </view>
+  </view>
+  <view class='box_content'  hidden="{{isShow}}">
+    <view class='content' wx:for="{{Brr}}" wx:key="*this">
+      <view class='content_img'><image src='{{item.dict_tu}}' class='img_content'></image></view>
+      <view class="content_desc">{{item.dict_biaoti}}</view>
+      <view class='content_price'>{{item.dict_jiage}}元起</view>
+      <view class='content_book'>立即预定</view>
+    </view>
+  </view>  
+</view>

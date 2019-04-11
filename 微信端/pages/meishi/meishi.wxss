@@ -1,0 +1,140 @@
+/* pages/index/index.wxss */
+page{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.top{
+  width:100%;
+  height: 550rpx;
+   background-image: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553856709719&di=acdc17351be08f711bdadd867609fea5&imgtype=0&src=http%3A%2F%2Fpic.58pic.com%2F58pic%2F11%2F16%2F16%2F69B58PIChpn.jpg');
+   background-position: center;
+} 
+.top-head{
+  /* vertical-align:top; */
+}
+.top-head>image{
+  padding:0 20rpx;
+  width:350rpx;
+  height:150rpx;
+  vertical-align:bottom;
+  /* border: 1px solid #f0f0f0 */
+
+}
+.top-head>text{
+  padding-bottom:40rpx;
+  display: inline-block;
+  color:#f0f0f0;
+  font-size: 35rpx;
+}
+
+.selection{
+  color:#fff;
+  display:flex;
+  justify-content: space-between;
+  padding: 0 20rpx 0 50rpx;
+}
+.selection view:first-child{
+  font-size: 38rpx;
+  font-weight: bold;
+}
+.selection view:last-child{
+  font-size: 30rpx;
+  color:#999;
+
+}
+.top-list{
+  white-space: nowrap; 
+  display: flex;
+}
+.top-list view{
+  width:320rpx;
+  height: 280rpx;
+  background-color: #fff;
+  margin: 20rpx;
+  display: inline-block;
+  overflow:hidden;
+  border-radius: 10rpx;
+}
+.top-list image{
+  width:100%;
+  height:65%;
+}
+.top-list text{
+  display:block;
+}
+.top-list text:nth-child(2){
+   font-size: 35rpx;
+   margin-left:20rpx;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+   width:280rpx;
+}
+.top-list text:nth-child(3){
+   font-size: 30rpx;
+   margin-left:20rpx;
+   color:#f33;
+}
+
+
+.feature{
+  border-bottom:3rpx solid #eee;
+  padding: 5rpx;
+}
+
+.feature-ts{
+  color:#333;
+  display:flex;
+  justify-content: space-between;
+  padding: 30rpx 20rpx 30rpx 50rpx;
+}
+.feature-ts view:first-child{
+  font-size: 35rpx;
+}
+.feature-ts view:last-child{
+  font-size: 30rpx;
+  color:#999;
+
+}
+.feature-list{
+  white-space: nowrap; 
+  display: flex;
+}
+.feature-list view{
+  width:280rpx;
+  height: 280rpx;
+  margin: 20rpx;
+  display: inline-block;
+  overflow:hidden;
+  border-radius: 10rpx;
+}
+.feature-list image{
+  width:100%;
+  height:65%;
+}
+.feature-list text{
+  display:block;
+}
+.feature-list text:nth-child(2){
+   font-size: 35rpx;
+   margin-left:20rpx;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+   width:270rpx;
+}
+.feature-list text:nth-child(3){
+   font-size: 25rpx;
+   margin-left:20rpx;
+   color:#999;
+}
+.feature-list text:nth-child(3) text{
+  display: inline-block;
+  padding-right: 10rpx;
+  color: #f66;
+}
+.footer{
+  text-align: center;
+  color: #999;
+  padding-top: 50rpx;
+  font-size: 30rpx;
+}

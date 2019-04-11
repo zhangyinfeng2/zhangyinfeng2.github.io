@@ -1,0 +1,9 @@
+<view>
+<swiper>
+<swiper-item>
+<image src='{{dict_tu}}'></image></swiper-item>
+</swiper>
+</view>
+<view>
+<text>{{dict_biaoti}}</text>
+</view>

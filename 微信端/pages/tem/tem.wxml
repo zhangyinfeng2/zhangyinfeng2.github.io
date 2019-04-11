@@ -1,0 +1,12 @@
+<template name = "newstem">
+<view class='news-item' bindtap="onOpennew" >
+    <view class='item-header'>
+    <image class='author-image' src="{{item.writersUrl}}"></image>
+    <text class='author-mz'>{{item.writers}}</text>
+    <text class='author-time'>{{item.publishDateStr}}</text>
+    </view>
+    <text class='item-title'>{{item.title}}</text>
+    <image class='news-image' src='{{item.newsUrl}}'></image>
+    <text class='description'>{{item.description}}</text>
+  </view>
+</template>  

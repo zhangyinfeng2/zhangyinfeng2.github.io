@@ -1,0 +1,231 @@
+/**index.wxss**/
+
+.search {
+  padding: 0 40rpx;
+}
+
+.search .navigator-search {
+  height: 60rpx;
+  background-color: #f2f2f2;
+  border-radius: 30rpx;
+  text-align: center;
+  font-size: 35rpx;
+  line-height: 60rpx;
+  color: #5c5c5c;
+}
+
+/* 轮播 */
+
+.swiper-group {
+  height: 230rpx;
+}
+
+.swiper-group swiper {
+  height: 230rpx;
+  margin-top: 30rpx;
+}
+
+.swiper-group swiper swiper-item {
+  height: 230rpx;
+}
+
+.swiper-group swiper swiper-item image {
+  width: 100%;
+  height: 100%;
+}
+
+/* 分类 */
+
+.classify {
+  width: 700rpx;
+  margin: 0 auto;
+  margin-top: 20rpx;
+  box-shadow: 0 1px 3px #ddd;
+  padding-bottom: 20rpx;
+  box-sizing: border-box;
+}
+
+/* 分类头部 */
+
+.classify .classify-top {
+  width: 100%;
+  height: 150rpx;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.classify .classify-top .classify-module {
+  width: 20%;
+  height: 150rpx;
+}
+
+.classify .classify-top .classify-module .classify-module-image {
+  width: 90rpx;
+  height: 90rpx;
+  margin: 0 auto;
+}
+
+.classify .classify-top .classify-module .classify-module-image image {
+  width: 90rpx;
+  height: 90rpx;
+}
+
+.classify .classify-top .classify-module text {
+  font-size: 30rpx;
+}
+
+/* 分类内容部分 */
+
+.classify .classify-content {
+  width: 100%;
+  margin-top: 20rpx;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.classify .classify-content .classify-content-module {
+  width: 33.1%;
+  height: 200rpx;
+  text-align: center;
+  padding-top: 20rpx;
+  box-sizing: border-box;
+  margin-bottom: 3rpx;
+}
+
+.classify .classify-content .classify-content-module text {
+  color: #fff;
+  font-weight: 900;
+}
+
+.classify .classify-content .classify-content-module image {
+  width: 90rpx;
+  height: 90rpx;
+  margin-top: 20rpx;
+}
+
+/* 分类底部 */
+
+.classify-bottom {
+  width: 100%;
+  margin-top: 30rpx;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+.classify-bottom .classify-bottom-modue {
+  width: 20%;
+  text-align: center;
+}
+
+.classify-bottom .classify-bottom-modue image {
+  width: 90rpx;
+  height: 90rpx;
+}
+
+.classify-bottom .classify-bottom-modue text {
+  font-size: 30rpx;
+}
+
+/* 特值优惠 */
+
+.discounts {
+  width: 700rpx;
+  margin: 0 auto;
+  margin-top: 60rpx;
+}
+
+.discounts .discounts-title {
+  text-align: center;
+  padding-bottom: 30rpx;
+}
+
+.discounts .discounts-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.discounts .discounts-content .discounts-content-l {
+  width: 32%;
+  height: 300rpx;
+  border-radius: 20rpx;
+  box-shadow: 0 1px 3px #ddd;
+}
+
+.discounts-content-text1 {
+  padding-left: 20rpx;
+  font-size: 30rpx;
+  font-weight: 900;
+}
+
+.discounts-content-text2 {
+  padding-left: 20rpx;
+  font-size: 25rpx;
+}
+
+.discounts .discounts-content .discounts-content-image {
+  width: 100%;
+  text-align: center;
+  margin-top: 10rpx;
+}
+
+.discounts .discounts-content .discounts-content-image image {
+  width: 200rpx;
+  height: 200rpx;
+}
+
+/* 热门活动 */
+
+.activity {
+  width: 700rpx;
+  margin: 0 auto;
+  margin-top: 60rpx;
+  margin-bottom: 20rpx;
+}
+
+.activity-title {
+  text-align: center;
+  padding-bottom: 30rpx;
+}
+
+.activity-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+
+.activity-content-item {
+  width: 48%;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 1px 3px #ddd;
+  margin-bottom: 20rpx;
+}
+
+.activity-content-item-l {
+  padding-left: 20rpx;
+  padding-top: 50rpx;
+  box-sizing: border-box;
+  width: 60%;
+}
+
+.activity-content-item-l-text1 {
+  font-size: 30rpx;
+  font-weight: 900;
+}
+.activity-content-item-l-text2 {
+  font-size: 25rpx;
+  color: #e0e0e0;
+  margin-top: 10rpx;
+}
+.activity-content-item-r {
+  width: 40%；;
+}
+
+.activity-content-item-r image {
+  width: 150rpx;
+  height: 150rpx;
+}

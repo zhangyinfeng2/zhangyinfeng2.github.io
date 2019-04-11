@@ -1,0 +1,37 @@
+<view class='nav'>
+
+</view>
+<view class='menu'>
+  <view wx:for="{{menu}}" wx:key="*this">
+    <image src="{{item.icon}}"></image>
+    <text>{{item.title}}</text>
+  </view>
+</view>
+
+<view class='main'>
+  <view>
+    <image src='../img/01.jpg'></image>
+  </view>
+  <view>
+    <image src='../img/02.jpg'></image>
+  </view>
+</view>
+
+
+<view class='advertising'>
+  <view wx:for="{{ticket}}" wx:key="*this" wx:if="{{index<4}}">
+    <image src="{{item.dict_tu}}"></image>
+    <text class='ad-title'>{{item.dict_biaoti}}</text>
+    <text class='ad-jg'>
+   {{item.dict_jiage}}<text>起</text>
+    <text class='ad-xw'>席位充足</text>
+    </text>
+  </view>
+
+</view>
+<text class='tj'>为你推荐</text>
+
+
+<view class=''>
+
+</view>

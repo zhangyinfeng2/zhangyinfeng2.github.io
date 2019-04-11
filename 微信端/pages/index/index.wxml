@@ -1,0 +1,121 @@
+<!--index.wxml-->
+
+<!-- 导航 -->
+<view class='search'>
+  <navigator class='navigator-search'>搜索目的地/交通/景点/酒店</navigator>
+</view>
+<!-- 轮播 -->
+<view class='swiper-group'>
+  <swiper indicator-dots="true" indicator-color="#9b1f00" indicator-active-color="#0043a8" autoplay="true" circular="true" interval="3000">
+    <swiper-item wx:for="{{array}}" wx:for-index="ids" wx:for-item="itemName">
+      <image src='{{itemName.dict_tu}}'></image>
+    </swiper-item>
+  </swiper>
+</view>
+<!-- 分类 -->
+<view class='classify'>
+  <view class='classify-top'>
+    <view class='classify-module'>
+      <view class='classify-module-image'>
+        <image src='../images/icon_air tickets_96p.png'></image>
+      </view>
+      <text>景点门票</text>
+    </view>
+    <view class='classify-module'>
+      <view class='classify-module-image'>
+        <image src='../images/hill.png'></image>
+      </view>
+      <text>周边游</text>
+    </view>
+    <view class='classify-module'>
+      <view class='classify-module-image'>
+        <image src='../images/cate.png'></image>
+      </view>
+      <text>美食林</text>
+    </view>
+    <view class='classify-module'>
+      <view class='classify-module-image'>
+        <image src='../images/flower.png'></image>
+      </view>
+      <text>赏花踏青</text>
+    </view>
+    <view class='classify-module'>
+      <view class='classify-module-image'>
+        <image src='../images/strategy.png'></image>
+      </view>
+      <text>攻略</text>
+    </view>
+  </view>
+  <view class='classify-content'>
+    <view class='classify-content-module' wx:for="{{array1}}" wx:key="this" style="background:{{item.color}}">
+      <text>{{item.name}}</text>
+      <view>
+        <image src='{{item.icon}}'></image>
+      </view>
+    </view>
+  </view>
+  <view class='classify-bottom'>
+    <view class='classify-bottom-modue' wx:for="{{[1,2,3,4,5,6,7,8,9]}}">
+      <view>
+        <image src='../images/iconfont-schoolbag.png'></image>
+      </view>
+      <text>一日游</text>
+    </view>
+  </view>
+</view>
+<!-- 特值优惠 -->
+<view class='discounts'>
+  <view class='discounts-title'>
+    <text>超值优惠</text>
+  </view>
+  <view class='discounts-content'>
+    <view class='discounts-content-l'>
+      <view class='discounts-content-text1'>
+        <text>特价机票</text>
+      </view>
+      <view class='discounts-content-text2'>
+        <text>飞往全世界</text>
+      </view>
+      <view class='discounts-content-image'>
+        <image src='../images/aircraft.jpg'></image>
+      </view>
+    </view>
+    <view class='discounts-content-l'>
+      <view class='discounts-content-text1'>
+        <text>特价机票</text>
+      </view>
+      <view class='discounts-content-text2'>
+        <text>飞往全世界</text>
+      </view>
+      <view class='discounts-content-image'>
+        <image src='../images/aircraft.jpg'></image>
+      </view>
+    </view>
+    <view class='discounts-content-l'>
+      <view class='discounts-content-text1'>
+        <text>特价机票</text>
+      </view>
+      <view class='discounts-content-text2'>
+        <text>飞往全世界</text>
+      </view>
+      <view class='discounts-content-image'>
+        <image src='../images/aircraft.jpg'></image>
+      </view>
+    </view>
+  </view>
+</view>
+<!-- 热门活动 -->
+<view class='activity'>
+  <view class='activity-title'><text>热门活动</text></view>
+  <view class='activity-content'>
+    <view class='activity-content-item' wx:for="{{[1,2,3,4]}}" wx:key="this">
+      <view class='activity-content-item-l'>
+        <view class='activity-content-item-l-text1'><text>全球赏花季</text></view>
+        <view class='activity-content-item-l-text2'><text>门票6折起</text></view>
+      </view>
+      <view class='activity-content-item-r'>
+        <image src='../images/flower.jpg'></image>
+      </view>
+    </view>
+  </view>
+</view>

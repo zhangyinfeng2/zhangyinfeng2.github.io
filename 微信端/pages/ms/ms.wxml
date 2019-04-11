@@ -1,0 +1,57 @@
+<view>
+    <swiper indicator-dots="{{indicatorDots}}" 
+            autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">  
+            <block wx:for="{{imgUrls}}">  
+                <swiper-item>  
+                    <navigator url="{{item.link}}" hover-class="navigator-hover">  
+                        <image src="{{item.url}}" class="slide-image" width="355" height="150"/>  
+                    </navigator>   
+                </swiper-item>  
+            </block>  
+    </swiper> 
+</view>
+<!--主界面-->
+<view class='main-box'>
+      <view class='main-nav'>
+        <text>杭州</text>
+        <navigator>当前位置</navigator>
+      </view>
+      <view class="section">
+        <picker
+          mode="date"
+          value="{{date}}"
+          start="2019-01-01"
+          end="2300-09-01"
+          bindchange="bindDateChange"
+        >
+            <view class="picker">
+            <text>入住时间：</text><view class='input-view'><input value='{{date}}' placeholder=''> {{date}}</input></view>
+            </view>
+        </picker>
+        <picker
+            mode="date"
+            value="{{date}}"
+            start="2019-01-01"
+            end="2300-09-01"
+            bindchange="leaveTime"
+          >
+            <view class="picker">
+             <text>预离时间：</text><view class='input-view'><input value='{{leaveTime}}' placeholder=''> {{leaveTime}}</input></view>
+            </view>
+        </picker>
+      </view>
+      <view class="section">
+        <picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+          <view class="picker">
+          <text>预离时间：</text><view class='input-view'><input value='{{region[0]}} {{region[1]}} {{region[2]}}' placeholder=''> {{region[0]}} {{region[1]}} {{region[2]}}</input></view>
+          </view>
+        </picker>
+      </view>
+      <view class='text-view'>
+        <text>开始搜索</text>
+      </view>
+      <view class='n-view'>
+        <navigator>浏览&收藏</navigator>
+        <navigator>我的订单</navigator>
+      </view>
+</view>
