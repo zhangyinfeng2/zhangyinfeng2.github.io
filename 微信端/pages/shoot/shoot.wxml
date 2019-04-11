@@ -1,2 +1,3 @@
-<!--pages/shoot/shoot.wxml-->
-<text>pages/shoot/shoot.wxml</text>
+<view bindtap='chooseimage'>
+
+</view>

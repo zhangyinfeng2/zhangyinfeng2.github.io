@@ -1,4 +1,7 @@
 <view class='nav'>
+<view></view>
+<navigator></navigator>
+
 
 </view>
 <view class='menu'>
@@ -32,6 +35,10 @@
 <text class='tj'>为你推荐</text>
 
 
-<view class=''>
-
+<view class='show'>
+  <view wx:for="{{ticket}}" wx:key="*this">
+  <image src='{{item.dict_tu}}'></image>
+  <text class='show_title'>{{item.dict_biaoti}}</text>
+  <text class='show_main'>{{item.dict_luguo}}</text>
+  </view>
 </view>

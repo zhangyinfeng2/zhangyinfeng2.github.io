@@ -1,11 +1,19 @@
-
+page{
+  background: #F4f4f4;
+}
 .nav{
   height: 130rpx;
+  box-sizing: border-box;
+  padding: 20rpx;
+  display: flex;
+  
 }
+
 .menu{
   height: 340rpx;
   display: flex;
   flex-wrap: wrap;
+  background: white;
 }
 .menu view{
   width: 25%;
@@ -45,6 +53,7 @@
   justify-content: space-between;
     box-sizing: border-box;
   padding: 0 20rpx;
+  background: white;
 
 }
 .advertising view{
@@ -87,7 +96,41 @@ padding-left: 140rpx;
   text-align: center;
   font-size: 30rpx;
   padding: 0 30rpx;
+  margin-top: 30rpx;
 }
+.show{
+  margin-top: 30rpx;
 
+}
+.show view{
+  height: 540rpx;
+  background: white;
+  margin-top: 30rpx;
+}
+.show view image{
+  height: 300rpx;
+}
+.show_title{
+  font-size:36rpx;
+  display: block;
+  height: 100rpx;
+    overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 
+}
+.show_main{
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  height: 87rpx;
+  font-size: 32rpx;
+  color: #9D9D9D;
+  margin-top: 10rpx;
 
+}

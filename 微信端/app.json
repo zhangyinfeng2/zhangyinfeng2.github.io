@@ -1,18 +1,20 @@
 {
   "pages": [
+    "pages/index/index",
+    "pages/destination/destination",
+    "pages/ms/ms",
+    "pages/strategy/strategy",
+    "pages/package/package",
+    "pages/ticket/ticket",
+    "pages/ticket-minute/ticket-minute",
     "pages/shtq/shtq",
     "pages/gaotie/gaotie",
     "pages/logs/logs",
-    "pages/destination/destination",
     "pages/journey/journey",
     "pages/me/me",
     "pages/shoot/shoot",
-    "pages/ms/ms",
-    "pages/index/index",
     "pages/meishi/meishi",
-    "pages/package/package",
-    "pages/ticket/ticket",
-    "pages/ticket-minute/ticket-minute"
+    "pages/youlun/youlun"
   ],
   "window": {
     "backgroundTextStyle": "light",

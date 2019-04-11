@@ -1,1 +1,3 @@
-/* pages/ticket-minute/ticket-minute.wxss */
+swiper-item image{
+  width: 100%;
+}

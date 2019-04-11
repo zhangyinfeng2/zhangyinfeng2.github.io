@@ -3,6 +3,48 @@ Page({
   /**
    * 页面的初始数据
    */
+  myjingdian:function(){
+    wx.navigateTo({
+      url: '../ticket/ticket',
+      success: function(res) {},
+      fail: function(res) {},
+      complete: function(res) {},
+    })
+  },
+  mygl: function () {
+    wx.navigateTo({
+      url: '../strategy/strategy',
+      success: function (res) { },
+      fail: function (res) { },
+      complete: function (res) { },
+    })
+  },
+  mysh: function () {
+    wx.navigateTo({
+      url: '../shtq/shtq',
+      success: function (res) { },
+      fail: function (res) { },
+      complete: function (res) { },
+    })
+  },
+  meishi: function () {
+    wx.navigateTo({
+      url: '../meishi/meishi',
+      success: function (res) { },
+      fail: function (res) { },
+      complete: function (res) { },
+    })
+  },
+  youlun:function(){
+    wx.navigateTo({
+      url: '../youlun/youlun',
+      success: function (res) { },
+      fail: function (res) { },
+      complete: function (res) { },
+    })
+  },
+
+
   data: {
     array: [{
         "dict_time": "2天",

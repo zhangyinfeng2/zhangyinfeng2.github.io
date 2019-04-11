@@ -2,6 +2,7 @@
 
 .search {
   padding: 0 40rpx;
+  margin-top: 20rpx;
 }
 
 .search .navigator-search {
@@ -17,16 +18,15 @@
 /* 轮播 */
 
 .swiper-group {
-  height: 230rpx;
+  height: 300rpx;
 }
-
 .swiper-group swiper {
-  height: 230rpx;
-  margin-top: 30rpx;
+  height: 300rpx;
+  margin-top: 20rpx;
 }
 
 .swiper-group swiper swiper-item {
-  height: 230rpx;
+  height: 300rpx;
 }
 
 .swiper-group swiper swiper-item image {
@@ -96,7 +96,8 @@
 
 .classify .classify-content .classify-content-module text {
   color: #fff;
-  font-weight: 900;
+  font-weight: 500;
+  font-size: 34rpx;
 }
 
 .classify .classify-content .classify-content-module image {

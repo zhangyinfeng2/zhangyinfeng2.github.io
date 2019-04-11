@@ -1,0 +1,254 @@
+<swiper indicator-dots="{{indicatorDots}}" indicator-color="rgba(255, 255, 255, 0.5)" indicator-active-color="#ffffff" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true" class='header'>
+    <block wx:for="{{arr}}" wx:key="{{index}}">
+        <swiper-item>
+            <image src="{{item}}" class="slide-image" />
+        </swiper-item>
+    </block>
+</swiper>
+
+<swiper class='swiper-nav' indicator-dots="true" indicator-color="#f0f0f0" indicator-active-color="#2577e3" circular="true">
+    <swiper-item>
+        <view class='nav'>
+            <view wx:for="{{nav1}}" wx:key="{{index}}">
+                <image src='{{item.img1}}'></image>
+                <text>{{item.text1}}</text>
+            </view>
+        </view>
+        <view class='nav'>
+            <view wx:for="{{nav2}}" wx:key="{{index}}">
+                <image src='{{item.img2}}'></image>
+                <text>{{item.text2}}</text>
+            </view>
+        </view>
+    </swiper-item>
+    <swiper-item>
+        <view class='nav'>
+            <view wx:for="{{nav1}}" wx:key="{{index}}">
+                <image src='{{item.img3}}'></image>
+                <text>{{item.text3}}</text>
+            </view>
+        </view>
+        <view class='nav'>
+            <view wx:for="{{nav2}}" wx:key="{{index}}">
+                <image src='{{item.img4}}'></image>
+                <text>{{item.text4}}</text>
+            </view>
+        </view>
+    </swiper-item>
+</swiper>
+
+<view class='topic'>
+    <view class='topic-left'>
+        <image src='https://m1.tuniucdn.com/fb2/t1/G5/M00/8F/F2/Cii-sltRpYWILKkDAACKwsZ-YtoAAKh5gP-cyEAAIra833.png'></image>
+    </view>
+    <view class='topic-right'>
+        <image src='https://m4.tuniucdn.com/fb2/t1/G5/M00/8F/D3/Cii-sltRm5OIYqxhAAA0-U3PnIsAAKhrQPX9SQAADUR092.png'></image>
+        <image src='https://m4.tuniucdn.com/fb2/t1/G5/M00/8F/D3/Cii-s1tRm32ISyNgAAAy1MTJGxUAAKhrQK1wU0AADLs977.png'></image>
+    </view>
+</view>
+
+<view class="wrap">
+    <view class='sticky-nav'>
+        <view class='{{currentData == 0 ? "tabBorer" : ""}}' data-current="0" bindtap='checkCurrent'>爆款推荐</view>
+        <view class='{{currentData == 1 ? "tabBorer" : ""}}' data-current="1" bindtap='checkCurrent'>日本航线</view>
+        <view class='{{currentData == 2 ? "tabBorer" : ""}}' data-current="2" bindtap='checkCurrent'>海外航线</view>
+        <view class='{{currentData == 3 ? "tabBorer" : ""}}' data-current="3" bindtap='checkCurrent'>国内航线</view>
+    </view>
+    <swiper current="{{currentData}}" bindchange="bindchange" class='swiper-box'>
+        <swiper-item>
+            <view class='pricelist' wx:for='{{product}}' wx:key="{{index}}">
+                <view class='item-top'>
+                    <image src='{{item.productImg}}' mode="widthFix"></image>
+                    <view class='leftTop'>
+                        <image src='../../img/youlun.png'></image>
+                        <text>邮轮 | {{item.productDepart}}</text>
+                    </view>
+                    <view class='rightTop'>
+                        <text>人气爆棚</text>
+                    </view>
+                    <view class='leftBottom'>
+                        <text>{{item.productPrice}}</text>
+                    </view>
+                    <view class='rightBottom'>
+                        <image src='../../img/user.png'></image>
+                        <text>{{item.productNumber}}人出游 </text>
+                        <image src='../../img/zan.png'></image>
+                        <text>{{item.satisfaction}}满意</text>
+                    </view>
+                </view>
+                <view class='pricelist-title'>
+                    {{item.titlelist}}
+                </view>
+                <view class="pricelist-describe">
+                    {{item.describe}}
+                </view>
+            </view>
+            <view class='more'>
+                查看更多爆款产品
+            </view>
+        </swiper-item>
+
+        <!-- 日本航线 -->
+        <swiper-item>
+            <view class='pricelist' wx:for='{{product1}}' wx:key="{{index}}">
+                <view class='item-top'>
+                    <image src='{{item.productImg}}' mode="widthFix"></image>
+                    <view class='leftTop'>
+                        <image src='../../img/youlun.png'></image>
+                        <text>邮轮 | {{item.productDepart}}</text>
+                    </view>
+
+                    <view class='leftBottom'>
+                        <text>{{item.productPrice}}</text>
+                    </view>
+                    <view class='rightBottom'>
+                        <image src='../../img/user.png'></image>
+                        <text>{{item.productNumber}}人出游 </text>
+                        <image src='../../img/zan.png'></image>
+                        <text>{{item.satisfaction}}满意</text>
+                    </view>
+                </view>
+                <view class='pricelist-title'>
+                    {{item.titlelist}}
+                </view>
+                <view class="pricelist-describe">
+                    {{item.describe}}
+                </view>
+            </view>
+            <view class='more'>
+                查看更多爆款产品
+            </view>
+        </swiper-item>
+        <!-- 海外航线 -->
+        <swiper-item>
+            <view class='pricelist' wx:for='{{product2}}' wx:key="{{index}}">
+                <view class='item-top'>
+                    <image src='{{item.productImg}}' mode="widthFix"></image>
+                    <view class='leftTop'>
+                        <image src='../../img/youlun.png'></image>
+                        <text>邮轮 | {{item.productDepart}}</text>
+                    </view>
+
+                    <view class='leftBottom'>
+                        <text>{{item.productPrice}}</text>
+                    </view>
+                    <view class='rightBottom'>
+                        <image src='../../img/user.png'></image>
+                        <text>{{item.productNumber}}人出游 </text>
+                        <image src='../../img/zan.png'></image>
+                        <text>{{item.satisfaction}}满意</text>
+                    </view>
+                </view>
+                <view class='pricelist-title'>
+                    {{item.titlelist}}
+                </view>
+                <view class="pricelist-describe">
+                    {{item.describe}}
+                </view>
+            </view>
+            <view class='more'>
+                查看更多爆款产品
+            </view>
+        </swiper-item>
+
+        <!-- 国内航线 -->
+        <swiper-item>
+            <view class='pricelist' wx:for='{{product3}}' wx:key="{{index}}">
+                <view class='item-top'>
+                    <image src='{{item.productImg}}' mode="widthFix"></image>
+                    <view class='leftTop'>
+                        <image src='../../img/youlun.png'></image>
+                        <text>邮轮 | {{item.productDepart}}</text>
+                    </view>
+
+                    <view class='leftBottom'>
+                        <text>{{item.productPrice}}</text>
+                    </view>
+                    <view class='rightBottom'>
+                        <image src='../../img/user.png'></image>
+                        <text>{{item.productNumber}}人出游 </text>
+                        <image src='../../img/zan.png'></image>
+                        <text>{{item.satisfaction}}满意</text>
+                    </view>
+                </view>
+                <view class='pricelist-title'>
+                    {{item.titlelist}}
+                </view>
+                <view class="pricelist-describe">
+                    {{item.describe}}
+                </view>
+            </view>
+            <view class='more'>
+                查看更多爆款产品
+            </view>
+        </swiper-item>
+
+    </swiper>
+</view>
+
+
+<view class='hot'>
+    <view class='footer-title'>- 热门邮轮 -</view>
+    <swiper class='hot-cruise' indicator-dots="true" indicator-color="#f0f0f0" indicator-active-color="#2577e3" circular="true">
+        <swiper-item>
+            <view class='row-list'>
+                <view class='hot-list' wx:for='{{hotlist}}' wx:key='{{index}}'>
+                    <view class='hot-img'>
+                        <image src='{{item.hotimg}}'></image>
+                    </view>
+                    <view>{{item.hottitle}}</view>
+                    <view>{{item.hottext}}</view>
+                </view>
+            </view>
+        </swiper-item>
+        <swiper-item>
+            <view class='row-list'>
+                <view class='hot-list' wx:for='{{hotlist1}}' wx:key='{{index}}'>
+                    <view class='hot-img'>
+                        <image src='{{item.hotimg}}'></image>
+                    </view>
+                    <view>{{item.hottitle}}</view>
+                    <view>{{item.hottext}}</view>
+                </view>
+            </view>
+        </swiper-item>
+    </swiper>
+
+    <view class='mores'>
+        更多邮轮
+    </view>
+</view>
+
+<view class='understand'>
+    <view class='footer-title'>- 热门邮轮 -</view>
+    <view class='more-list' wx:for="{{understand}}" wx:key="{{index}}">
+        <text>{{understand[index]}}</text>
+    </view>
+
+    <view class='mores'>了解更多</view>
+</view>
+
+<view class='bottom'>
+    <view class='bottom-top'>
+        <view class=' bottom-img ' wx:for='{{bottomimg}}' wx:key='{{index}}'>
+            <image src='{{item.img}}' mode='widthFix'></image>
+            <text>{{item.text}}</text>
+        </view>
+    </view>
+
+
+    <view class='bottom-section'>
+        <view>出国游</view>
+        <view>国内游</view>
+        <view>周边游</view>
+    </view>
+    <view class='bottom-section'>
+        <view>目的地大全</view>
+        <view>特卖精选</view>
+        <view>视频攻略</view>
+    </view>
+
+    <view class='register'>|</view>
+    <view class='bottom-icp'>Mamba科技有限公司 | Mamba旅游网ICP证：XXX-xxxxxxxx</view>
+    <view class='bottom-tos'>|</view>
+</view>

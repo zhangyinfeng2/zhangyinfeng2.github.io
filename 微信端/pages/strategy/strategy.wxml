@@ -1,0 +1,13 @@
+<view class='banner'>
+
+<navigator class='seek'>
+  请输入你想去的地方
+</navigator>
+</view>
+<view class='title'>
+当季热门目的地
+</view>
+<view class='main'>
+<view style='background:url({{item.dict_tu}}) no-repeat 100%' wx:for="{{sj}}" wx:key="*this" wx:if="{{index<6}}">{{item.dict_time}}</view>
+
+</view>

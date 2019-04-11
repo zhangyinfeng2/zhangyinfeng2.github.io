@@ -1,1 +1,5 @@
-/* pages/shoot/shoot.wxss */
+view{
+  width: 100rpx;
+  height: 100rpx;
+  background: red;
+}

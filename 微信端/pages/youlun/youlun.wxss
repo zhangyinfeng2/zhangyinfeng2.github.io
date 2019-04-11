@@ -1,0 +1,402 @@
+/* pages/youlun/youlun.wxss */
+
+page {
+    background: #eee;
+}
+
+.header image {
+    width: 100%;
+    height: 250rpx;
+}
+
+.header {
+    height: 250rpx;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 30rpx;
+}
+
+.nav view {
+    width: 20%;
+}
+
+.nav image {
+    width: 62.5%;
+    height: 95rpx;
+}
+
+.nav text {
+    display: block;
+    font-size: 30rpx;
+}
+
+.swiper-nav {
+    height: 410rpx;
+    background: #fff;
+    margin-bottom: 25rpx;
+}
+
+.topic {
+    display: flex;
+    justify-content: space-between;
+    padding: 30rpx 0;
+    background: #fff;
+    height: 250rpx;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 25rpx;
+}
+
+.topic image {
+    width: 93%;
+    height: 95%;
+}
+
+.topic-left, .topic-right {
+    width: 50%;
+}
+
+.topic-right image {
+    height: 45%;
+    margin-bottom: 20rpx;
+}
+
+.sticky-nav {
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #fff;
+    font-size: 35rpx;
+    margin-bottom: 5rpx;
+    z-index: 999;
+}
+
+.sticky-nav view {
+    display: inline-block;
+    padding: 20rpx 5rpx;
+    width: 23%;
+    text-align: center;
+}
+
+.tabBorer {
+    border-bottom: 2px solid #2dbb55;
+    color: #2dbb55;
+}
+
+.swiper-box {
+    height: 100%;
+}
+
+.wrap {
+    height: 4040rpx;
+}
+
+.pricelist {
+    height: 450rpx;
+    background: #fff;
+    margin-bottom: 30rpx;
+}
+
+.item-top {
+    position: relative;
+    height: 300rpx;
+    overflow: hidden;
+    color: #fff;
+    font-size: 30rpx;
+}
+
+.item-top>image {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+.leftTop, .rightTop, .leftBottom, .rightBottom {
+    position: absolute;
+}
+
+.leftTop {
+    top: 20rpx;
+    left: 40rpx;
+    padding: 10rpx 25rpx;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50rpx;
+}
+
+.leftTop image {
+    width: 30rpx;
+    height: 30rpx;
+    margin-right: 10rpx;
+}
+
+.rightTop {
+    width: 110rpx;
+    height: 70rpx;
+    text-align: center;
+    line-height: 70rpx;
+    background: rgba(255, 0, 0, 0.8);
+    top: 0;
+    right: 30rpx;
+    font-size: 23rpx;
+    color: #fffbc9;
+}
+
+.rightTop:before {
+    content: "";
+    border-top: 20rpx solid rgba(255, 0, 0, 0.8);
+    border-left: 55rpx solid transparent;
+    border-right: 55rpx solid transparent;
+    position: absolute;
+    top: 70rpx;
+    left: 0;
+}
+
+.leftBottom {
+    left: 20rpx;
+    bottom: 20rpx;
+    background-color: rgb(255, 119, 0);
+    padding: 10rpx 25rpx;
+    border-radius: 10rpx;
+    font-size: 35rpx;
+}
+
+.leftBottom:before {
+    content: "￥";
+    font-size: 25rpx;
+}
+
+.leftBottom:after {
+    content: "起";
+    font-size: 25rpx;
+    margin-left: 5rpx;
+}
+
+.rightBottom {
+    right: 20rpx;
+    bottom: 20rpx;
+}
+
+.rightBottom image {
+    width: 30rpx;
+    height: 30rpx;
+    margin-right: 5rpx;
+    /* vertical-align: bottom; */
+}
+
+.pricelist-title {
+    padding: 20rpx 32rpx;
+    font-size: 37rpx;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #222;
+}
+
+.pricelist-describe {
+    padding: 0 32rpx 20rpx;
+    font-size: 30rpx;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #999;
+}
+
+.more {
+    text-align: center;
+    font-size: 35rpx;
+    color: #2dbb55;
+    background: #fff;
+    padding: 30rpx;
+    margin-top: -30rpx;
+}
+
+.mores {
+    text-align: center;
+    font-size: 35rpx;
+    color: #2dbb55;
+    background: #fff;
+    padding: 10rpx 30rpx;
+}
+
+.more:after, .mores:after {
+    content: '';
+    background-image: url(http://m2.tuniucdn.com/fb2/t1/G5/M00/44/77/Cii-tFpoOY6IRcSVAAADfu6iBRYAACqcQP__GoAAAOW354_w20_h20_c0_t0.png);
+    background-size: 30rpx 30rpx;
+    background-repeat: no-repeat;
+    border-right: 30rpx solid transparent;
+    background-position: 0 50%;
+}
+
+.hot {
+    overflow: hidden;
+    margin-top: -15rpx;
+}
+
+.footer-title {
+    text-align: center;
+    background: #fff;
+    padding: 30rpx;
+    font-weight: bold;
+    font-size: 40rpx;
+}
+
+.hot-cruise {
+    background: #fff;
+    height: 350rpx;
+}
+
+.row-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hot-list {
+    border: 1px solid #ccc;
+    overflow: hidden;
+    width: 30%;
+}
+
+.hot-img {
+    height: 180rpx;
+    overflow: hidden;
+}
+
+.hot-img image {
+    height: 180rpx;
+    width: 100%;
+}
+
+.hot-list view:nth-child(2) {
+    text-align: center;
+    font-size: 32rpx;
+    font-weight: bold;
+    color: #222;
+    padding: 5rpx 0;
+}
+
+.hot-list view:nth-child(3) {
+    text-align: center;
+    font-size: 30rpx;
+    color: #666;
+    padding: 0 10rpx;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.understand {
+    margin-top: 30rpx;
+    background: #fff;
+}
+
+.more-list {
+    height: 60rpx;
+    background: #f9f9f9;
+    font-size: 32rpx;
+    color: #051b28;
+    padding: 10rpx 30rpx;
+    margin: 30rpx;
+}
+
+.more-list text {
+    height: 60rpx;
+    line-height: 60rpx;
+    display: inline-block;
+    position: relative;
+    text-indent: 25rpx;
+}
+
+.more-list text::before {
+    content: '';
+    border-right: 15rpx solid #2dbb55;
+    height: 15rpx;
+    display: inline-block;
+    border-radius: 15rpx;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.bottom {
+    background: #fff;
+    padding-top: 50rpx;
+    font-size: 28rpx;
+    color: #999;
+}
+
+.bottom-top {
+    display: flex;
+    justify-content: space-around;
+    padding: 20rpx 30rpx;
+}
+
+.bottom-img image {
+    width: 70%;
+}
+
+.bottom-img {
+    text-align: center;
+    width: 20%;
+}
+
+.bottom-img text {
+    display: block;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30rpx;
+}
+
+.bottom-section view {
+    text-align: center;
+    width: 33.3333333%;
+}
+
+.register {
+    text-align: center;
+    margin-top: 50rpx;
+    padding-bottom: 30rpx;
+}
+
+.register::before {
+    content: '登录';
+    margin-right: 30rpx;
+}
+
+.register::after {
+    content: '注册';
+    margin-left: 30rpx;
+}
+
+.bottom-icp {
+    text-align: center;
+    padding-bottom: 50rpx;
+}
+
+.bottom-tos {
+    text-align: center;
+    padding-bottom: 10rpx;
+}
+
+.bottom-tos::before {
+    content: '用户协议';
+    color: #2dbb55;
+    margin-right: 30rpx;
+}
+
+.bottom-tos::after {
+    content: '隐私政策';
+    color: #2dbb55;
+    margin-left: 30rpx;
+}

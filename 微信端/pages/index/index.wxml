@@ -15,31 +15,31 @@
 <!-- 分类 -->
 <view class='classify'>
   <view class='classify-top'>
-    <view class='classify-module'>
+    <view class='classify-module' bindtap='myjingdian'>
       <view class='classify-module-image'>
         <image src='../images/icon_air tickets_96p.png'></image>
       </view>
       <text>景点门票</text>
     </view>
-    <view class='classify-module'>
+    <view class='classify-module' bindtap='youlun'>
       <view class='classify-module-image'>
         <image src='../images/hill.png'></image>
       </view>
-      <text>周边游</text>
+      <text>邮轮</text>
     </view>
-    <view class='classify-module'>
+    <view class='classify-module' bindtap='meishi'>
       <view class='classify-module-image'>
         <image src='../images/cate.png'></image>
       </view>
       <text>美食林</text>
     </view>
-    <view class='classify-module'>
+    <view class='classify-module' bindtap='mysh'>
       <view class='classify-module-image'>
         <image src='../images/flower.png'></image>
       </view>
       <text>赏花踏青</text>
     </view>
-    <view class='classify-module'>
+    <view class='classify-module' bindtap='mygl'>
       <view class='classify-module-image'>
         <image src='../images/strategy.png'></image>
       </view>
